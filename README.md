@@ -1,6 +1,9 @@
 
 
 # prequiste
+![download](https://user-images.githubusercontent.com/67428572/163178677-b8fa34f4-b742-4b98-9474-dc5f16f112ef.png)
+
+![download](https://user-images.githubusercontent.com/67428572/163178713-75a799c0-ce26-40e4-b7d9-2e2a1334b025.jpg)
 
 - >React js
 - >tailwindcss
