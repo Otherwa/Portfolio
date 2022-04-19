@@ -1,0 +1,68 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+body {
+margin: 0;
+background-color: rgb(0, 0, 0);
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: 1s;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #c11000;}
+
+ul.topnav li.right {float: right;}
+
+
+
+.cont{
+  padding:4rem;
+  display: inline-block;
+  
+}
+
+.cont h1{
+  font-size:6.5rem;
+  color:white;
+  display:block;
+  text-align:left;
+}
+iframe{
+  height:75em;
+  width: 100%;
+}
+
+/* tab */
+@media screen and (max-width: 769px) {
+  ul.topnav li a {font-size: 1.5rem;transition: 1s;}
+  .cont h1{font-size:3.25rem;transition: 1s;}
+}
+/* mobile */
+@media screen and (max-width: 569px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+  ul.topnav li a {font-size: 1.25rem;transition: 1s;}
+  .cont h1{font-size:2rem;transition: 1s;}
+}
+
