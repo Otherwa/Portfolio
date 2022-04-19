@@ -1,12 +1,18 @@
 
 
 # prequiste
-![download](https://user-images.githubusercontent.com/67428572/163178677-b8fa34f4-b742-4b98-9474-dc5f16f112ef.png)
 
 ![download](https://user-images.githubusercontent.com/67428572/163178713-75a799c0-ce26-40e4-b7d9-2e2a1334b025.jpg)
 
-- >React js
-- >tailwindcss
+- `tailwindcss`
+
+# In a nutshell
+
+![download](https://user-images.githubusercontent.com/67428572/164025539-52664d3c-50a4-4dc8-b36b-8495b408e64d.jpg)
+
+`P.S : intermediate Skillset`
+
+![download](https://user-images.githubusercontent.com/67428572/164025984-567bcd3d-152d-4d10-9b64-07c27559d1f1.jpg)
 
 ## Acknowledgements
 
