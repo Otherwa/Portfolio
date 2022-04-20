@@ -51,6 +51,7 @@ ul.topnav li.right {float: right;}
 iframe{
   height:75em;
   width: 100%;
+  pointer-events: none;
 }
 
 /* tab */
@@ -63,6 +64,6 @@ iframe{
   ul.topnav li.right, 
   ul.topnav li {float: none;}
   ul.topnav li a {font-size: 1.25rem;transition: 1s;}
-  .cont h1{font-size:2rem;transition: 1s;}
+  .cont h1{font-size:2.5rem;transition: 1s;}
 }
 
