@@ -1,54 +1,226 @@
 <!doctype html>
+
+
 <html>
+
 <head>
     <title>
-        Home
+        Intro
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/dist/output.css" type="text/css">
     <!-- tailwind css -->
     <link rel="stylesheet" href="/dist/style.css" type="text/css">
     <link rel="icon" type="image/png" href="../">
-  
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3522/3522558.png" />
+    <meta name="theme-color" content="#59C3C3">
     <!-- google fonts -->
 
     <!-- google analytics -->
 </head>
-    <body>
-        <!-- nav bar -->
-        <ul class="topnav">
-            <li><a class="active font-mono" href="# ">Init</a></li>
-            <li><a href="#portfolio" class="font-mono">Porfolio</a></li>
-            <li><a href="#contact" class="font-mono">Contact</a></li>
-            <li class="right"><a href="#about" class="font-mono">About</a></li>
-        </ul>
-        <!-- main section -->
-        <div class="cont">
-           <!-- centered div -->
-           <br>
-           <br>
-            <h1>Hi.<br> 
-                <span style="color:red;">I'm Atharv Desai</span><br> 
-                <span class="font-mono">Newbie</span> <span style="color:rgb(114, 114, 114)">Front-End Developer.</span><br>
-            </h1>
-           <br>
-           <br>
+
+<body>
+    <!-- nav bar -->
+    <ul class="topnav">
+        <li><a class="active font-mono" href="# ">Init</a></li>
+        <li><a href="#portfolio" class="font-mono">Porfolio</a></li>
+        <li><a href="#contact" class="font-mono">Contact</a></li>
+        <li class="right"><a href="#contact" class="font-mono">About</a></li>
+    </ul>
+    <!-- main section -->
+    <div class="cont" style="background-color:#000">
+        <!-- centered div -->
+        <br>
+        <br>
+        <h1 style="color: #CAD2C5">Hi.<br>
+            <span style="color:#96C5B0;">I'm Atharv Desai</span><br>
+            <span class="font-mono">Newbie&nbsp;</span> <span style="color:#59C3C3;">Front-End Developer.</span><br>
+        </h1>
+    </div>
+
+    <div class="cont" id="parallax1" style="background-color:#000">
+        <br>
+        <br>
+        <div class="card hov">
+            <p id="quote">I understand nothing</p>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+    </div>
+
+    <div class="cont" id="porfolio">
         <!-- github portfolio-->
-        <div class="portfolio">
-            <br>
-            <br>
-            <br>
-            <p>#portfolio</p>
-            <iframe id="portfolio" src="https://otherwa.github.io/Otherwa/" scrolling="no"></iframe>
-            <br>
-            <br>
+        <iframe id="portfolio" src="https://otherwa.github.io/Otherwa/" scrolling="no"></iframe>
+    </div>
+
+    <div class="cont" id="parallax2" style="height: 59vh;">
+        <span style="color:whitesmoke"><p id="text">Projects</p>
+        <code class="text-xl">(As in Discrete)</code>
+        </span>
+    </div>
+
+    <div class="cont1">
+        <!-- proh 1 -->
+        <div class="con">
+            <div class="card hov">
+                <figure class="bg-slate-100 rounded-xl p-8">
+                    <img class="w-24 h-24 mx-auto" src="http://pa1.narvii.com/7035/575f98ee2fc90462986bd139423170a5b6e0d65ar1-256-256_00.gif" alt="duck" width="384" height="512">
+                    <div class="pt-6 space-y-4">
+                        <blockquote>
+                            <p class="text-lg font-mono">
+                                "Registration form using php An HTML form is a section of a document containing normal content, markup, special elements called controls (checkboxes, radio buttons, menus, etc.) ..."
+                            </p>
+                        </blockquote>
+                        <figcaption>
+                            <div>
+                                <a rel="stylesheet" class="underline" href="https://github.com/Otherwa/PHP_regis-Kel-">
+                                Here..
+                                </a>
+                            </div>
+                        </figcaption>
+                    </div>
+                </figure>
+            </div>
+
+            <div class="card hov">
+                <figure class="bg-slate-100 rounded-xl p-8">
+                    <img class="w-24 h-24  mx-auto" src="https://bang-phinf.pstatic.net/a/32ehga/0_8g9Ud018bng1q157yzwrfmle_wzcvar.gif" alt="fox" width="384" height="512">
+                    <div class="pt-6 space-y-4">
+                        <blockquote>
+                            <p class="text-lg font-mono">
+                                "A simple Vaccine Management System + Patients Stats recorded using ASP.NET Web app and MySql / MongoDb"
+                            </p>
+                        </blockquote>
+                        <figcaption>
+                            <div>
+                                <a class="underline" rel="stylesheet" href="https://github.com/Otherwa/VMS-v-1.0-super-octo-dollop-Le-Vaccine-">
+                                Here..
+                                </a>
+                            </div>
+                        </figcaption>
+                    </div>
+                </figure>
+            </div>
+
+            <div class="card hov">
+                <figure class="bg-slate-100 rounded-xl p-8">
+                    <img class="w-24 h-24  mx-auto" src="https://i.gifer.com/origin/51/51400a9b5b73916bc996914bcc6e4c4e_w200.webp" alt="bemo" width="384" height="512">
+                    <div class="pt-6 space-y-4">
+                        <blockquote>
+                            <p class="text-lg font-mono">
+                                "Registration Site for students (Events) A webform, web form or HTML form on a web page allows a user to enter data that is sent to a server for processing."
+                        </blockquote>
+                        <figcaption>
+                            <div>
+                                <a rel="stylesheet" class="underline" href="https://github.com/Otherwa/stunning-disco">
+                                Here..
+                                </a>
+                            </div>
+                        </figcaption>
+                    </div>
+                </figure>
+            </div>
         </div>
-    </body>
+
+        <br>
+        <!-- prj 2 -->
+        <div class="con">
+            <div class="card hov">
+                <figure class="bg-slate-100 rounded-xl p-8">
+                    <img class="w-24 h-24  mx-auto" src="https://c.tenor.com/FfHjNfODLkgAAAAi/buizel-pokemon.gif" alt="qwe" width="384" height="512">
+                    <div class="pt-6 space-y-4">
+                        <blockquote>
+                            <p class="text-lg font-mono">
+                                "shiny and normal sprite with atk def and all stats pypokedex lib"
+                            </p>
+                        </blockquote>
+                        <figcaption>
+                            <div>
+                                <a rel="stylesheet" class="underline" href="https://github.com/Otherwa/A_pokedex">
+                                    <p>Here..</p>
+                                </a>
+                            </div>
+                        </figcaption>
+                    </div>
+                </figure>
+            </div>
+
+            <div class="card hov">
+                <figure class="bg-slate-100 rounded-xl p-8">
+                    <img class="w-24 h-24  mx-auto" src="https://i.redd.it/djgklsuamhn81.gif" alt="qwe" width="384" height="512">
+                    <div class="pt-6 space-y-4">
+                        <blockquote>
+                            <p class="text-lg font-mono">
+                                "pattern encoding for encrypted messages (clown communication)"
+                            </p>
+                        </blockquote>
+                        <figcaption>
+                            <div>
+                                <a rel="stylesheet" class="underline" href="https://github.com/Otherwa/A_pokedex">
+                                    <p>Here..</p>
+                                </a>
+                            </div>
+                        </figcaption>
+                    </div>
+                </figure>
+            </div>
+
+            <div class="card hov">
+                <figure class="bg-slate-100 rounded-xl p-8">
+                    <img class="w-24 h-24  mx-auto" src="https://64.media.tumblr.com/927365f0bbdd1f3d2f852bac8759f89b/tumblr_mh8a7wx1WG1rfjowdo1_r2_500.gif" alt="qwe" width="384" height="512">
+                    <div class="pt-6 space-y-4">
+                        <blockquote>
+                            <p class="text-lg font-mono">
+                                "This is an analysis done based on the confirmed cases of COVID-19 virus up to 24th of March."
+                            </p>
+                        </blockquote>
+                        <figcaption>
+                            <div>
+                                <a rel="stylesheet" class="underline" href="https://github.com/Otherwa/COVID-19-Prediction-SL">
+                                    <p>Here..</p>
+                                </a>
+                            </div>
+                        </figcaption>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="cont" id="parallax3">
+        <p id="text">Contact Me</p>
+    </div>
+
+    <div class="cont" id="contact" style="height: 120vh">
+        <div style="width:80vw;">
+            <figure style="padding:1.5rem" class="bg-slate-100 rounded-xl">
+                <img class="w-24 h-24  mx-auto" src="https://i.redd.it/djgklsuamhn81.gif" alt="qwe" width="384" height="812" style="padding:3rem">
+                <div class="pt-6 space-y-4">
+                    <blockquote>
+                        <p class="text-lg font-mono">
+                            # About
+                            <br>
+                            <br> "Since 10th standard I loved changing markup, adding blocks and filling the IDE. Now even though I am not an expert in this programming, I tried my best to get some sense of it, to understand what is all this coding, programming
+                            lingo. I'm getting better at it, and am learning quite a lot. In fact, I feel the last year has been better than the last ten years"
+                        </p>
+                    </blockquote>
+                    <figcaption>
+                        <div style="margin: 24px 0;">
+                            <a class='L1' href="https://www.instagram.com/otherwa.jpg/" target="_blank"><i class="fa fa-instagram"></i></a> &nbsp;
+                            <a class='L1' href="https://www.linkedin.com/in/otherwa/" target="_blank"><i class="fa fa-linkedin squares"></i></a> &nbsp;
+                            <a class='L1' href="https://github.com/Otherwa/" target="_blank"><i class="fa fa-github"></i></a> &nbsp;
+                            <a class='L1' href="mailto:atharvdesai2002@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a> &nbsp;
+                            <br>
+                            <a href="#" target="_blank">+91-8828388979</i></a> &nbsp;
+                        </div>
+                    </figcaption>
+                </div>
+            </figure>
+        </div>
+    </div>
+
+
+</body>
+<script async type="text/javascript" src="js/main.js"></script>
+
 </html>

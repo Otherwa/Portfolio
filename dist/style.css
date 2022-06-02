@@ -1,69 +1,205 @@
-/* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
-html{
-  scroll-behavior: smooth;
-}
-body {
-margin: 0;
-background-color: rgb(0, 0, 0);
-}
-
-ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(0, 0, 0);
-}
-
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 1.5rem;
-  transition: 1s;
-}
-
-ul.topnav li a:hover:not(.active) {background-color: #111;}
-
-ul.topnav li a.active {background-color: #c11000;}
-
-ul.topnav li.right {float: right;}
-
-
-
-.cont{
-  padding:4rem;
-  display: inline-block;
-  
-}
-
-.cont h1{
-  font-size:6.5rem;
-  color:white;
-  display:block;
-  text-align:left;
-}
-iframe{
-  height:75em;
-  width: 100%;
-  pointer-events: none;
-}
-
-/* tab */
-@media screen and (max-width: 769px) {
-  ul.topnav li a {font-size: 1.5rem;transition: 1s;}
-  .cont h1{font-size:3.25rem;transition: 1s;}
-}
-/* mobile */
-@media screen and (max-width: 569px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
-  ul.topnav li a {font-size: 1.25rem;transition: 1s;}
-  .cont h1{font-size:2.5rem;transition: 1s;}
-}
-
+        /* google fonts */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        img {
+            pointer-events: none;
+        }
+        
+        p {
+            font-family: 'Maven Pro', sans-serif;
+            /* 1 */
+        }
+        /* nav bar */
+        
+        ul.topnav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(0, 0, 0);
+        }
+        
+        ul.topnav li {
+            float: left;
+        }
+        
+        ul.topnav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 1.5rem;
+            transition: 0.5s;
+        }
+        
+        ul.topnav li a:hover:not(.active) {
+            transition: 0.2s;
+            background-color: #111;
+        }
+        
+        ul.topnav li a.active {
+            background-color: #ADF1D2;
+            color: #111;
+        }
+        
+        ul.topnav li.right {
+            float: right;
+        }
+        
+        .cont {
+            padding: 2rem;
+            display: inline-flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 100vh;
+            background-color: whitesmoke;
+            width: 100%;
+        }
+        
+        .cont:nth-child(3) {
+            background-image: url('https://wallpaperaccess.com/full/2906441.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .cont:nth-child(5) {
+            background-image: url('https://wallpaperaccess.com/full/99810.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .cont:nth-child(7) {
+            background-image: url('https://wallpaperaccess.com/full/99790.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed
+        }
+        
+        .cont1 {
+            background-color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+        
+        .cont h1 {
+            font-size: 4.5rem;
+            color: white;
+            padding: 1.2rem;
+            font-family: monospace;
+        }
+        /* card */
+        
+        figure {
+            box-shadow: 29px 32px 77px rgba(0, 0, 0, 0.08);
+            background-color: azure;
+        }
+        
+        .card {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding: 3rem;
+        }
+        
+        .card1 {
+            transition: 0.9s;
+            box-shadow: 2px 4px 8px 0 rgb(0 0 0 / 20%);
+            max-width: 20em;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        
+        .con {
+            transition: 1s;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            align-content: space-between;
+            flex-wrap: nowrap;
+        }
+        
+        #portfolio {
+            height: 236vh;
+            width: 100%;
+            pointer-events: none;
+        }
+        
+        .L1 {
+            font-size: 1.4rem;
+        }
+        
+        #text {
+            font-size: 6rem;
+        }
+        /* tab */
+        
+        .cont1 .con .hov {
+            transition: 0.1s;
+        }
+        
+        .cont1 .con .hov :hover {
+            background-color: black;
+            color: white;
+            transition: 0.1s;
+        }
+        
+        .cont1 {
+            height: 80rem;
+        }
+        
+        @media screen and (max-width: 769px) {
+            ul.topnav li a {
+                font-size: 1.5rem;
+                transition: 1s;
+            }
+            .cont h1 {
+                font-size: 3.25rem;
+                transition: 1s;
+            }
+            .con {
+                transition: 1s;
+                flex-direction: column;
+            }
+            .cont1 {
+                height: 150rem;
+            }
+            #text {
+                font-size: 4.5rem;
+            }
+        }
+        /* mobile */
+        
+        @media screen and (max-width: 569px) {
+            ul.topnav li.right,
+            ul.topnav li {
+                float: none;
+            }
+            ul.topnav li a {
+                font-size: 1.25rem;
+                transition: 1s;
+            }
+            .cont h1 {
+                font-size: 2.25rem;
+                transition: 1s;
+                text-align: start;
+            }
+            #portfolio {
+                height: 243vh;
+            }
+            .cont1 {
+                height: 190rem;
+            }
+            #text {
+                font-size: 3.9rem;
+            }
+        }
