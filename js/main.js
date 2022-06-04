@@ -6,7 +6,7 @@ window.addEventListener('scroll', () => {
     let offset1 = window.pageYOffset;
     parallax1.style.backgroundPositionY = offset1 * 0.014 + "em";
     parallax2.style.backgroundPositionY = (32 - (offset1 * 0.014)) + "em";
-    parallax3.style.backgroundPositionY = -(62 - (offset1 * 0.014)) + "em";
+    parallax3.style.backgroundPositionY = (62 - (offset1 * 0.014)) + "em";
 });
 
 // rand gend
@@ -36,4 +36,5 @@ list = {
 let x = Math.floor(Math.random() * Object.keys(list).length);
 let temp = document.getElementById("quote");
 temp.innerHTML = list[x] + "<cite> - Quote</cite>";
-temp.style.fontSize = '1.5rem';
+temp.style.fontSize = '1.4rem';
+temp.style.fontFamily = 'monospace';
